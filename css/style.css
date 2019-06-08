@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100%;
+}
+
+/* ------ NAV CSS -------*/
+
+.nav-container {
+    width: 100%;
+    height: 115px;
+    background-color: #003871;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo-container{
+    width: 300px;
+    height: 100px;
+    background-image: url("../img/usta-white.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.anchor-container {
+    width: 900px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.anchor-tag {
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-family: PT Sans, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* ------ FOOTER CSS ------ */
+
+.footer-container {
+    width: 100%;
+    height: 400px;
+    background-color: #003871;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.document-container {
+    width: 65%;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 25px 50px;
+    padding-top: 25px;
+}
+.document-row {
+    height: 100%;
+    width: 30%;
+    padding: 2px;
+}
+.document-title {
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: #67b2e8;
+}
+.document-link {
+    font-family: PT Sans, sans-serif;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #67b2e8;
+    text-decoration: none;
+}
+.footer-logo-container {
+    width: 35%;
+    height: 100px;
+    background-image: url("../img/usta-white.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+/* ------ HOME PAGE CSS ------- */
+.heading-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 60px 0px 20px 0px;
+}
+.heading {
+    width: 300px;
+    height: 100px;
+    background-image: url("../img/usta-dblue.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sub-heading-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.sub-heading {
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    font-family: PT Sans, sans-serif;
+    font-size: 30px;
+    color: #707070;
+}
+.main-content-container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 150px;
+}
+.main-text-content-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 1000px;
+    margin-left: 45px;
+}
+.main-picture-content-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 1000px;
+    margin-right: 45px;
+}
+.picture-container {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/tennis-coach.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px 150px;
+}
+.content-heading {
+    font-family: PT Sans, sans-serif;
+    font-size: 40px;
+    color: #67B2E8;
+    z-index: 2;
+    height: 75px;
+    width: 100%;
+    font-weight: normal;
+    text-align: center;
+}
+.article-container {
+    width: 100%;
+    height: 210px;
+}
+.home-title {
+    font-family: PT Sans, sans-serif;
+    font-size: 26px;
+    color: #707070;
+    text-align: left;
+    margin: 5px;
+}
+.home-date {
+    font-family: PT Sans, sans-serif;
+    color: #707070;
+    text-align: left;
+    margin: 5px;
+}
+.home-paragraph {
+    font-family: PT Sans, sans-serif;
+    color: #707070;
+    text-align: left;
+    margin: 15px 5px;
+
+}
