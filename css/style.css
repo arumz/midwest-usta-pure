@@ -43,6 +43,12 @@ body {
     font-size: 25px;
     text-decoration: none;
 }
+.documents-icon {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
 
 /* ------ FOOTER CSS ------ */
 
@@ -91,7 +97,7 @@ body {
 }
 
 /* ------ HOME PAGE CSS ------- */
-.heading-container {
+.heading-container-home {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -184,4 +190,556 @@ body {
     text-align: left;
     margin: 15px 5px;
 
+}
+
+/* ------ CALENDAR CSS ------ */
+.heading-text-calendar {
+    text-align: left;
+    padding-left: 60px;
+}
+.button-container{
+    width: 100%;
+    height: 70px;
+}
+.button {
+    width: 140px;
+    height: 50px;
+    background-color: blue;
+    margin-left: 60px;
+    border-radius: 2px;
+}
+.button-text {
+    font-family: Rockwell, serif;
+    font-size: 24px;
+    color: white;
+    padding: 25px;
+}
+.committee-container {
+    width: 1400px;
+    height: 200px;
+    margin: 50px 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.committee-column1 {
+    height: 200px;
+    width: 310px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.committee-column4 {
+    height: 200px;
+    width: 310px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.adult-container{
+    height: 125px;
+    width: 310px;
+    background-color: #FFF2CB;
+    opacity: 0.7;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.hospitality-container{
+    height: 70px;
+    width: 310px;
+    background-color: #DCC2F1;
+    opacity: 0.7;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.junior-container {
+    height: 200px;
+    width: 310px;
+    background-color: #DBE0F3;
+    opacity: 0.7;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.management-container {
+    height: 200px;
+    width: 450px;
+    background-color: #C5DFB0;
+    opacity: 0.7;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.support-container {
+    height: 70px;
+    width: 310px;
+    background-color: #FECCCB;
+    opacity: 0.7;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.diversity-container {
+    height: 125px;
+    width: 310px;
+    background-color: #F8CBAE;
+    opacity: 0.7;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.committee{
+    width:300px;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.committee-text {
+    font-family: Helvetica Neue, serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.big-committee {
+    width:220px;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+.calendar-box {
+    width: 1364px;
+    height: 800px;
+    border: 3px solid gray;
+    margin: 75px 40px 75px 40px;
+}
+.top-box{
+    width: 1364px;
+    height: 40px;
+    display: flex;
+}
+.month-button{
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+.month-button-text {
+    font-family: PT Sans, sans-serif;
+    font-size: 30px;
+    color: #67B2E8;
+    text-decoration: none;
+    font-weight: normal;
+}
+.left-button {
+    text-align: left;
+    padding: 5px 25px;
+}
+.right-button {
+    text-align: right;
+    padding: 5px 25px;
+}
+.current-month {
+    width: 100%;
+    height: 40px;
+    padding-bottom: 5px;
+}
+.current-month-text {
+    font-family: PT Sans, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #67B2E8;
+    text-decoration: none;
+    font-weight: normal;
+}
+.day-box-container {
+    width: 1364px;
+    height: 64px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.day-box {
+    width: 195px;
+    height: 64px;
+    background-color: #003871;
+}
+.day-box-text {
+    text-align: center;
+    padding: 25px 15px 25px 15px;
+    color: white;
+    font-family: PT Sans, sans-serif;
+    font-weight: normal;
+}
+.date-box-container {
+    width: 1364px;
+    height: 650px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.date-box {
+    width: 194px;
+    height: 129px;
+}
+.both-style {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.only-row-style {
+    border-right: 1px solid black;
+}
+.only-column-style {
+    border-bottom: 1px solid black;
+
+}
+
+/*------- OUR COMMITTEES CSS ------- */
+.heading-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 60px 0px 60px 0px;
+}
+.heading-text {
+    text-align: left;
+    padding-left: 60px;
+    font-family: PT Sans, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: #67B2E8;
+}
+.content-container {
+    width: 100%;
+    height: 3000px;
+}
+.committee-box {
+    width: 100%;
+    height: 425px;
+}
+.big-committee-box{
+    width: 100%;
+    height: 725px;
+}
+.committee-header-white {
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+.committee-title {
+    font-family: PT Sans, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    width: 200px;
+    height: 75px;
+    margin-top: 8px;
+}
+.committee-title-small {
+    font-family: PT Sans, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    width: 125px;
+    height: 75px;
+    margin-top: 8px;
+}
+.committee-title-medium {
+    font-family: PT Sans, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    width: 175px;
+    height: 75px;
+    margin-top: 8px;
+}
+.committee-content-white {
+    width: 100%;
+    height: 425px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.big-committee-content-white {
+    width: 100%;
+    height: 625px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.committee-white {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    opacity: 0.5;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    margin: 30px 30px 0 30px;
+}
+.committee-header-grey {
+    width: 100%;
+    height: 75px;
+    background-color: #DEDEDE;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+.committee-content-grey {
+    width: 100%;
+    height: 425px;
+    background-color: #DEDEDE;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.committee-grey {
+    width: 200px;
+    height: 200px;
+    background-color: #DEDEDE;
+    opacity: 0.5;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    margin: 30px 30px 0 30px;
+}
+.sub-committee-title {
+    font-family: Rockwell, serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+.sub-committee-text {
+    font-family: PT Sans, sans-serif;
+    font-size: 14px;
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+}
+.junior-icon {
+    width: 55px;
+    height: 55px;
+    background-image: url("../icon/junior-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.adult-icon {
+    width: 55px;
+    height: 55px;
+    background-image: url("../icon/adult-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.management-icon {
+    width: 55px;
+    height: 55px;
+    background-image: url("../icon/management-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hospitality-icon {
+    width: 55px;
+    height: 55px;
+    background-image: url("../icon/hospitality-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.support-icon {
+    width: 55px;
+    height: 55px;
+    background-image: url("../icon/support-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.diversity-icon {
+    width: 55px;
+    height: 55px;
+    background-image: url("../icon/diversity-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* ------- STAFF CSS ------- */
+.staff-content-container {
+    width: 100%;
+    height: 3000px;
+}
+.staff-collection-container-white {
+    width: 100%;
+    height: 850px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.staff-collection-container-grey {
+    width: 100%;
+    height: 850px;
+    background-color: #DEDEDE;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.staff-card {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 60px 50px;
+}
+.staff-top {
+    width: 100%;
+    height: 25%;
+    background-color: #003871;
+    display: flex;
+    flex-flow: row wrap;
+}
+.staff-picture-container {
+    width: 30%;
+    height: 70%;
+    background-color: white;
+}
+.staff-picture {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.name-contact-container {
+    width: 70%;
+    height: 80%;
+    background-color: #003871;
+}
+.staff-name {
+    font-family: PT Sans, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+.staff-contact {
+    font-family: PT Sans, sans-serif;
+    font-size: 8px;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.staff-number {
+    width: 50px;
+
+}
+.staff-spacer {
+    margin: 0 5px;
+}
+.staff-email {
+    width: 75px;
+}
+.staff-title-container {
+    height: 20%;
+    width: 100%;
+    background-color: #003871;
+}
+.staff-title {
+    font-family: PT Sans, sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.staff-middle {
+    width: 99.25%;
+    height: 60%;
+    background-color: white;
+    border: 1px solid #0b0b13;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.staff-job-description-container {
+    width: 100%;
+    height: 60px;
+}
+.staff-job-description-title {
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.staff-job-description-text {
+    font-family: PT Sans, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.staff-bottom {
+    width: 100%;
+    height: 15%;
+    background-color: #003871;
+}
+/* ------- IMPORTANT MEETINGS CSS ------- */
+.important-content-container {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 20px;
+    justify-content: space-around;
+}
+.meeting-container {
+    width: 500px;
+    height: 650px;
+    margin: 0px 60px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.important-meeting {
+    width: 480px;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.important-meeting-title {
+    font-family: PT Sans, sans-serif;
+    font-size: 18px;
+}
+.important-meeting-date {
+    font-family: PT Sans, sans-serif;
+    font-size: 18px;
+}
+.important-picture-container {
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.important-picture {
+    width: 450px;
+    height: 420px;
+    background-image: url("../img/midwest-office.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.important-sub-container {
+    width: 450px;
+    height: 50px;
+}
+.important-sub-text {
+    font-family: PT Sans, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.google-maps-anchor {
+    font-family: PT Sans, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    font-style: italic;
+    color: #62B2E8;
 }
