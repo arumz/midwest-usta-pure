@@ -803,7 +803,7 @@ body {
         flex-flow: row nowrap;
     }
     .day-box {
-        width: 58px;
+        width: 56px;
         height: 64px;
         background-color: #003871;
     }
@@ -821,8 +821,8 @@ body {
         flex-flow: row wrap;
     }
     .date-box {
-        width: 58px;
-        height: 40px;
+        width: 57px;
+        height: 50px;
     }
     .both-style {
         border-bottom: 1px solid black;
@@ -1156,6 +1156,8 @@ body {
     height: 650px;
     display: flex;
     flex-flow: column nowrap;
+    padding: 0;
+
 }
 .important-picture {
     width: 450px;
@@ -1179,4 +1181,68 @@ body {
     text-decoration: none;
     font-style: italic;
     color: #62B2E8;
+}
+
+@media only screen and (max-width: 430px) {
+    .important-content-container {
+        width: 100%;
+        height: 950px;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0;
+        justify-content: space-around;
+    }
+    .meeting-container {
+        width: 401px;
+        height: 650px;
+        margin: 0;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .important-meeting {
+        width: 411px;
+        height: 100px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .important-meeting-title {
+        font-family: PT Sans, sans-serif;
+        font-size: 18px;
+    }
+    .important-meeting-date {
+        font-family: PT Sans, sans-serif;
+        font-size: 18px;
+    }
+    .important-picture-container {
+        width: 371px;
+        height: 611px;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0;
+
+    }
+    .important-picture {
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/midwest-office.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .important-sub-container {
+        width: 411px;
+        height: 50px;
+    }
+    .important-sub-text {
+        font-family: PT Sans, sans-serif;
+        font-size: 24px;
+        text-align: center;
+    }
+    .google-maps-anchor {
+        font-family: PT Sans, sans-serif;
+        font-size: 24px;
+        text-decoration: none;
+        font-style: italic;
+        color: #62B2E8;
+    }
 }
