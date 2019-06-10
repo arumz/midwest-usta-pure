@@ -50,6 +50,47 @@ body {
     margin-left: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    .nav-container {
+        width: 100%;
+        height: 115px;
+        background-color: #003871;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav-logo-container{
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
+    .anchor-container {
+        width: 600px;
+        height: 80px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    .anchor-tag {
+        width: 60px;
+        height: 60px;
+        color: white;
+        font-family: PT Sans, sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .documents-icon {
+        height: 40px;
+        width: 40px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+}
+
 /* ------ FOOTER CSS ------ */
 
 .footer-container {
