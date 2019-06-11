@@ -38,6 +38,10 @@ body {
     justify-content: space-around;
 }
 
+.mobile-anchor-container {
+    display: none;
+}
+
 .anchor-tag {
     width: 60px;
     height: 60px;
@@ -45,6 +49,12 @@ body {
     font-family: PT Sans, sans-serif;
     font-size: 25px;
     text-decoration: none;
+}
+.mobile-anchor-box {
+  display: none;
+}
+.mobile-anchor-tag {
+    display: none;
 }
 .documents-icon {
     height: 40px;
@@ -92,6 +102,18 @@ body {
         height: 0;
         display: none;
     }
+    #mobile-anchor-container {
+        display: none;
+        position: absolute;
+        background-color: #003871;
+        border: 2px solid #67B2E8;
+        width: 250px;
+        height: 800px;
+        z-index: 5;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding-top: 480px;
+    }
     .anchor-tag {
         width: 60px;
         height: 60px;
@@ -100,6 +122,31 @@ body {
         font-size: 12px;
         text-decoration: none;
     }
+    .mobile-anchor-box{
+        width: 250px;
+        height: 120px;
+        z-index: 9;
+        display: flex;
+        border: 1px solid #67B2E8;
+        align-items: center;
+    }
+    .mobile-anchor-tag {
+        width: 250px;
+        height: 60px;
+        color: white;
+        font-family: PT Sans, sans-serif;
+        font-size: 25px;
+        text-decoration: none;
+        z-index: 10;
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+    }
+    #mobile-documents-link {
+        border: 1px solid #67B2E8;
+        height: 94px;
+    }
+
     .anchor-icon-container {
         width: 50px;
         height: 60px;
@@ -201,8 +248,8 @@ body {
     }
     .document-title {
         font-family: PT Sans, sans-serif;
-        font-size: 18px;
-        padding: 8px 0;
+        font-size: 22px;
+        padding: 12px 0;
         color: #67b2e8;
         text-align: center;
         height: 60px;
@@ -210,7 +257,7 @@ body {
     .document-link {
         font-family: PT Sans, sans-serif;
         font-size: 14px;
-        padding: 8px 0;
+        padding: 10px 0;
         color: #67b2e8;
         text-decoration: none;
         text-align: left;
@@ -223,7 +270,7 @@ body {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        margin-top: 15px;
+        margin-top: 50px;
         margin-left: 90px;
     }
 }
@@ -373,9 +420,9 @@ body {
     .main-picture-content-container {
         display: flex;
         flex-flow: row wrap;
-        width: 400px;
-        height: 400px;
-        margin: 20px 0;
+        width: 350px;
+        height: 350px;
+        margin: 5px 0;
     }
     .picture-container {
         width: 300px;
@@ -605,6 +652,15 @@ body {
     color: white;
     font-family: PT Sans, sans-serif;
     font-weight: normal;
+    display: inline-block;
+}
+.mobile-day-box-text {
+    text-align: center;
+    padding: 0;
+    color: white;
+    font-family: PT Sans, sans-serif;
+    font-weight: normal;
+    display: none;
 }
 .date-box-container {
     width: 1364px;
@@ -752,7 +808,7 @@ body {
 
     .calendar-box {
         width: 100%;
-        height: 477px;
+        height: 475px;
         border: 1px solid gray;
         margin: 0;
     }
@@ -813,6 +869,15 @@ body {
         color: white;
         font-family: PT Sans, sans-serif;
         font-weight: normal;
+        display: none;
+    }
+    .mobile-day-box-text {
+        text-align: center;
+        padding: 0;
+        color: white;
+        font-family: PT Sans, sans-serif;
+        font-weight: normal;
+        display: inline-block;
     }
     .date-box-container {
         width: 100%;
@@ -822,7 +887,7 @@ body {
     }
     .date-box {
         width: 52.5px;
-        height: 60px;
+        height: 65px;
     }
     .both-style {
         border-bottom: 1px solid black;

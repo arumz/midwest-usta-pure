@@ -21,10 +21,31 @@
         </div>
 
         <div class = "hamburger-container">
-            <div class = "hamburger"></div>
+            <div class = "hamburger" id = "hamburger"></div>
         </div>
 
-        <a class = "anchor-icon-container" href="#footer"><img class = "documents-icon" alt = "important documents link" src = "./icon/file-outline.png"></a>
+        <div id = "mobile-anchor-container">
+            <div class = "mobile-anchor-box">
+                <a class = "mobile-anchor-tag" href="calendar.html">Calendar</a>
+            </div>
+            <div class = "mobile-anchor-box">
+                <a class = "mobile-anchor-tag" href="important-meetings.html">Important Meetings</a>
+            </div>
+            <div class = "mobile-anchor-box">
+                <a class = "mobile-anchor-tag" href = "our-committees.html">Our Committees</a>
+            </div>
+            <div class = "mobile-anchor-box">
+                <a class = "mobile-anchor-tag" href = "our-staff.html">Our Staff</a>
+            </div>
+            <div class = "mobile-anchor-box">
+                <a class = "mobile-anchor-tag" href = "index.html">Home</a>
+            </div>
+            <div class>
+                <a class = "mobile-anchor-tag" id = "mobile-documents-link" href = "#footer">Documents </br> <img src = "icon/menu-down.png"/></a>
+            </div>
+        </div>
+
+        <a class = "anchor-icon-container" href="#footer"><img class = "documents-icon" id = "documents-icon" alt = "important documents link" src = "./icon/file-outline.png"></a>
     </div>
 
 
@@ -91,13 +112,13 @@
         </div>
         <div class = "current-month"><h2 class = "current-month-text">June</h2></div>
         <div class = "day-box-container">
-            <div class = "day-box"><h4 class = "day-box-text">Monday</h4></div>
-            <div class = "day-box"><h4 class = "day-box-text">Tuesday</h4></div>
-            <div class = "day-box"><h4 class = "day-box-text">Wednesday</h4></div>
-            <div class = "day-box"><h4 class = "day-box-text">Thursday</h4></div>
-            <div class = "day-box"><h4 class = "day-box-text">Friday</h4></div>
-            <div class = "day-box"><h4 class = "day-box-text">Saturday</h4></div>
-            <div class = "day-box"><h4 class = "day-box-text">Sunday</h4></div>
+            <div class = "day-box"><h4 class = "day-box-text">Sunday</h4><h4 class = "mobile-day-box-text">Su</h4></div>
+            <div class = "day-box"><h4 class = "day-box-text">Monday</h4><h4 class = "mobile-day-box-text">M</h4></div>
+            <div class = "day-box"><h4 class = "day-box-text">Tuesday</h4><h4 class = "mobile-day-box-text">Tu</h4></div>
+            <div class = "day-box"><h4 class = "day-box-text">Wednesday</h4><h4 class = "mobile-day-box-text">W</h4></div>
+            <div class = "day-box"><h4 class = "day-box-text">Thursday</h4><h4 class = "mobile-day-box-text">Th</h4></div>
+            <div class = "day-box"><h4 class = "day-box-text">Friday</h4><h4 class = "mobile-day-box-text">F</h4></div>
+            <div class = "day-box"><h4 class = "day-box-text">Saturday</h4><h4 class = "mobile-day-box-text">Sa</h4></div>
 
         </div>
         <div class = "date-box-container">
@@ -179,4 +200,5 @@
 
     </div>
 </body>
+<script src = "js/script.js" type = "text/javascript"></script>
 </html>
