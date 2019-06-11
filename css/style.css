@@ -282,7 +282,7 @@ body {
     margin-right: 45px;
 }
 .picture-container {
-    width: 100%;
+    width: 400px;
     height: 300px;
     background-image: url("../img/tennis-coach.png");
     background-repeat: no-repeat;
@@ -651,30 +651,30 @@ body {
         padding: 25px;
     }
     .committee-container {
-        width: 430px;
-        height: 1000px;
+        width: 100%;
+        height: 1300px;
         margin: 0;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: space-between;
+        justify-content: normal;
     }
     .committee-column1 {
-        height: 200px;
-        width: 410px;
+        height: 225px;
+        width: 100%;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: space-between;
+        justify-content: normal;
     }
     .committee-column4 {
-        height: 200px;
-        width: 410px;
+        height: 300px;
+        width: 100%;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: space-between;
+        justify-content: normal;
     }
     .adult-container{
-        height: 125px;
-        width: 410px;
+        height: 155px;
+        width: 100%;
         background-color: #FFF2CB;
         opacity: 0.7;
         display: flex;
@@ -683,7 +683,7 @@ body {
     }
     .hospitality-container{
         height: 70px;
-        width: 410px;
+        width: 100%;
         background-color: #DCC2F1;
         opacity: 0.7;
         display: flex;
@@ -691,8 +691,8 @@ body {
         justify-content: space-around;
     }
     .junior-container {
-        height: 200px;
-        width: 410px;
+        height: 265px;
+        width: 100%;
         background-color: #DBE0F3;
         opacity: 0.7;
         display: flex;
@@ -700,8 +700,8 @@ body {
         justify-content: space-around;
     }
     .management-container {
-        height: 400px;
-        width: 410px;
+        height: 480px;
+        width: 100%;
         background-color: #C5DFB0;
         opacity: 0.7;
         display: flex;
@@ -709,8 +709,8 @@ body {
         justify-content: space-around;
     }
     .support-container {
-        height: 70px;
-        width: 410px;
+        height: 100px;
+        width: 100%;
         background-color: #FECCCB;
         opacity: 0.7;
         display: flex;
@@ -718,8 +718,8 @@ body {
         justify-content: space-around;
     }
     .diversity-container {
-        height: 125px;
-        width: 410px;
+        height: 155px;
+        width: 100%;
         background-color: #F8CBAE;
         opacity: 0.7;
         display: flex;
@@ -751,18 +751,18 @@ body {
     }
 
     .calendar-box {
-        width: 409px;
-        height: 800px;
+        width: 100%;
+        height: 477px;
         border: 1px solid gray;
         margin: 0;
     }
     .top-box{
-        width: 428px;
+        width: 100%;
         height: 40px;
         display: flex;
     }
     .month-button{
-        width: 50%;
+        width: 40%;
         height: 50px;
         float: left;
     }
@@ -795,7 +795,7 @@ body {
         font-weight: normal;
     }
     .day-box-container {
-        width: 409px;
+        width: 100%;
         height: 64px;
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
@@ -815,14 +815,14 @@ body {
         font-weight: normal;
     }
     .date-box-container {
-        width: 411px;
-        height: 350px;
+        width: 100%;
+        height: 330px;
         display: flex;
         flex-flow: row wrap;
     }
     .date-box {
-        width: 57px;
-        height: 50px;
+        width: 52.5px;
+        height: 60px;
     }
     .both-style {
         border-bottom: 1px solid black;
@@ -1008,6 +1008,201 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+@media only screen and (max-width: 430px) {
+    .heading-container {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 60px 0px 60px 0px;
+    }
+    .heading-text {
+        text-align: left;
+        padding-left: 60px;
+        font-family: PT Sans, sans-serif;
+        font-weight: normal;
+        font-size: 40px;
+        color: #67B2E8;
+    }
+    .content-container {
+        width: 100%;
+        height: 6200px;
+    }
+    .committee-box {
+        width: 100%;
+        height: 1400px;
+    }
+    .big-committee-box{
+        width: 100%;
+        height: 2025px;
+    }
+    .committee-header-white {
+        width: 100%;
+        height: 75px;
+        background-color: white;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin: 20px 0px 0px 0px;
+    }
+    .committee-title {
+        font-family: PT Sans, sans-serif;
+        font-size: 32px;
+        font-style: italic;
+        width: 200px;
+        height: 75px;
+        margin-top: 8px;
+    }
+    .committee-title-small {
+        font-family: PT Sans, sans-serif;
+        font-size: 32px;
+        font-style: italic;
+        width: 125px;
+        height: 75px;
+        margin-top: 8px;
+    }
+    .committee-title-medium {
+        font-family: PT Sans, sans-serif;
+        font-size: 32px;
+        font-style: italic;
+        width: 175px;
+        height: 75px;
+        margin-top: 8px;
+    }
+    .committee-content-white {
+        width: 100%;
+        height: 1400px;
+        background-color: white;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .big-committee-content-white {
+        width: 100%;
+        height: 1705px;
+        background-color: white;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .committee-white {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        opacity: 0.5;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        margin: 10px 20px;
+    }
+    .committee-header-grey {
+        width: 100%;
+        height: 75px;
+        background-color: #DEDEDE;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin: 20px 0px 0px 0px;
+    }
+    .committee-content-grey {
+        width: 100%;
+        height: 800px;
+        background-color: #DEDEDE;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .committee-grey {
+        width: 200px;
+        height: 200px;
+        background-color: #DEDEDE;
+        opacity: 0.5;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        margin: 10px 20px;
+    }
+    .sub-committee-title {
+        font-family: Rockwell, serif;
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        font-weight: normal;
+    }
+    .sub-committee-text {
+        font-family: PT Sans, sans-serif;
+        font-size: 14px;
+        width: 200px;
+        height: 150px;
+        padding: 5px;
+        text-align: center;
+    }
+    .junior-icon {
+        width: 55px;
+        height: 55px;
+        background-image: url("../icon/junior-logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .adult-icon {
+        width: 55px;
+        height: 55px;
+        background-image: url("../icon/adult-logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .management-icon {
+        width: 55px;
+        height: 55px;
+        background-image: url("../icon/management-logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .hospitality-icon {
+        width: 55px;
+        height: 55px;
+        background-image: url("../icon/hospitality-logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .support-icon {
+        width: 55px;
+        height: 55px;
+        background-image: url("../icon/support-logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .diversity-icon {
+        width: 55px;
+        height: 55px;
+        background-image: url("../icon/diversity-logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #adult-committee-container {
+        height: 800px;
+    }
+    #support-committee-container {
+        height: 600px;
+    }
+    #support-content-container {
+        height: 600px;
+    }
+    #hospitality-committee-box {
+        height: 400px;
+    }
+    #hospitality-content-box {
+        height: 400px;
+    }
+    #diversity-committee-container {
+        height: 800px;
+    }
+    #diversity-content-container {
+        height: 800px;
+    }
+}
 /* ------- OUR STAFF CSS ------- */
 .staff-content-container {
     width: 100%;
@@ -1120,6 +1315,29 @@ body {
     height: 15%;
     background-color: #003871;
 }
+
+@media only screen and (max-width: 430px) {
+    .staff-content-container {
+        width: 100%;
+        height: 9000px;
+    }
+    .staff-collection-container-white {
+        width: 100%;
+        height: 2650px;
+        background-color: white;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .staff-collection-container-grey {
+        width: 100%;
+        height: 2650px;
+        background-color: #DEDEDE;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
 /* ------- IMPORTANT MEETINGS CSS ------- */
 .important-content-container {
     width: 100%;
@@ -1184,6 +1402,9 @@ body {
 }
 
 @media only screen and (max-width: 430px) {
+    .heading-text {
+        padding-left: 20px;
+    }
     .important-content-container {
         width: 100%;
         height: 950px;
@@ -1193,14 +1414,14 @@ body {
         justify-content: space-around;
     }
     .meeting-container {
-        width: 401px;
+        width: 100%;
         height: 650px;
         margin: 0;
         display: flex;
         flex-flow: column nowrap;
     }
     .important-meeting {
-        width: 411px;
+        width: 100%;
         height: 100px;
         display: flex;
         flex-flow: row nowrap;
@@ -1209,14 +1430,16 @@ body {
     .important-meeting-title {
         font-family: PT Sans, sans-serif;
         font-size: 18px;
+        margin-left: 10px;
     }
     .important-meeting-date {
         font-family: PT Sans, sans-serif;
         font-size: 18px;
+        margin-right: 10px;
     }
     .important-picture-container {
         width: 371px;
-        height: 611px;
+        height: 561px;
         display: flex;
         flex-flow: column nowrap;
         padding: 0;
@@ -1230,7 +1453,7 @@ body {
         background-size: contain;
     }
     .important-sub-container {
-        width: 411px;
+        width: 100%;
         height: 50px;
     }
     .important-sub-text {
